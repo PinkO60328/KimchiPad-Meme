@@ -1,0 +1,11 @@
+import{_ as i,U as c,$ as d,c as n,B as o}from"./index-BcWFUdft.js";import{j as e}from"./motion-DYcAOzUx.js";const s=d(null),p=()=>i(s);function m(){const t=s.get();s.set(null),t==null||t.resolve()}function u(){const t=s.get();s.set(null),t==null||t.reject(new c)}/**
+ * @license lucide-react v0.460.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const j=n("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);/**
+ * @license lucide-react v0.460.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=n("ShieldQuestion",[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",key:"oel41y"}],["path",{d:"M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3",key:"mhlwft"}],["path",{d:"M12 17h.01",key:"p32p05"}]]);function v({kind:t}){const a=p();if(!a||t&&t!=="trade"&&a.request.kind!==t||t==="trade"&&a.request.kind==="launch")return null;const{request:l}=a;return e.jsxs("div",{className:"border border-ivory/25 bg-ink-900 p-4",role:"group","aria-label":"Demo wallet approval",children:[e.jsxs("div",{className:"mb-3 flex items-center gap-2",children:[e.jsx(x,{className:"h-4 w-4 text-ivory","aria-hidden":"true"}),e.jsx("p",{className:"label !text-ivory",children:"Demo wallet approval"})]}),e.jsx("p",{className:"font-display text-[15px] font-extrabold uppercase font-wide",children:l.title}),e.jsx("dl",{className:"mt-3 flex flex-col gap-1.5 text-[13px]",children:l.lines.map(r=>e.jsxs("div",{className:"flex justify-between gap-4",children:[e.jsx("dt",{className:"text-ivory-mute",children:r.label}),e.jsx("dd",{className:"text-right font-mono",children:r.value})]},r.label))}),e.jsx("p",{className:"mt-3 text-[12px] text-ivory-mute",children:"Simulated approval. Nothing will be signed or submitted."}),e.jsxs("div",{className:"mt-4 grid grid-cols-2 gap-2",children:[e.jsx(o,{variant:"secondary",size:"sm",onClick:u,children:"Reject"}),e.jsx(o,{size:"sm",onClick:m,autoFocus:!0,children:"Approve"})]})]})}export{j as A,v as D};
